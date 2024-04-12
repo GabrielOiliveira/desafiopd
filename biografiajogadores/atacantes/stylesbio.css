@@ -1,0 +1,202 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("atacantesimgs/background.jpg");
+}
+
+.perfil {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.perfil img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.informacoes {
+    flex-grow: 1;
+}
+
+.informacoes h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.informacoes p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+.titulos {
+    margin-bottom: 20px;
+}
+
+.titulos h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.titulos ul {
+    list-style-type: none;
+}
+
+.titulos ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+.biografia {
+    margin-bottom: 20px;
+}
+
+.biografia h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.biografia p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 4px solid #ccc; 
+    border-radius: 10px; 
+    background-color: black;
+    color: white;
+}
+
+.titulos {
+    border-top: 4px solid #ccc;
+    padding-top: 20px; 
+}
+
+.assinatura {
+    border-top: 4px solid #ccc;
+    padding-top: 20px;
+}
+
+.assinatura {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: row; 
+}
+
+.assinatura img {
+    width: 150px; 
+    margin-right: 20px;
+}
+
+.assinatura .texto {
+    flex-grow: 1;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid #facf00;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+nav img {
+    width: 60px;
+    height: 60px;
+    margin-right:50px
+}
+
+.numero {
+    color:#facf00;
+}
+
+body, p, nav {
+    margin: 0;
+}
+
+.comprar-camisa {
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #facf00;
+    color:black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botao:hover {
+    background-color: #a58504;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 4px solid #facf00;
+}
